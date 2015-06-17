@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 var fs = require('fs');
-var path = __dirname + "/.yourewelcome"
+var path = __dirname + "/.yourewelcomes"
 
 fs.readFile(path, 'utf8', function(err, data){
   if (err)  throw err;
