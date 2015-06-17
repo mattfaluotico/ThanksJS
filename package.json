@@ -1,0 +1,14 @@
+{
+  "name": "ThanksJS",
+  "version": "1.0.0",
+  "description": "Your terminal deserves a thankyou",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Faluotico",
+  "license": "MIT",
+  "bin" : {
+    "thanks" : "index.js"
+  }
+}
