@@ -1,7 +1,11 @@
 {
-  "name": "ThanksJS",
-  "version": "1.0.0",
+  "name": "thanksjs",
+  "version": "0.0.5",
   "description": "Your terminal deserves a thankyou",
+  "repositoty" : {
+    "type" : "git",
+    "url" : "git://github.com:MattFaluotico/ThanksJS.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
