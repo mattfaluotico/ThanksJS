@@ -3,11 +3,11 @@
 var fs = require('fs');
 var path = __dirname + "/.yourewelcomes"
 
-fs.readFile(path, 'utf8', function(err, data){
+fs.readFile(path, 'utf8', function(err, data) {
   if (err)  throw err;
-  var a = data.split('\n');
-  var lines = a.length;
+  var list = data.split('\n');
+  var lines = list.length;
   
-  var i = Math.floor(Math.random() * (lines - 1));
-  console.log(a[i]);
+  var thankYou = Math.floor(Math.random() * (lines - 1));
+  console.log(list[thankYou]);
 });

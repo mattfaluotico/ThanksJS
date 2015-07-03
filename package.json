@@ -1,10 +1,16 @@
 {
   "name": "thanksjs",
-  "version": "0.0.6",
-  "description": "Your terminal deserves a thankyou",
+  "version": "0.0.7",
+  "description": "Your terminal deserves a thankyou. Say 'thanks' and get a 'you're welcome'",
+  "homepage" : "https://github.com/MattFaluotico/ThanksJS",
+  "keywords" : [
+    "thanks",
+    "thank you",
+    "youre welcome"
+  ],
   "repositoty" : {
     "type" : "git",
-    "url" : "git://github.com:MattFaluotico/ThanksJS.git"
+    "url" : "git://github.com/MattFaluotico/ThanksJS.git"
   },
   "main": "index.js",
   "scripts": {
